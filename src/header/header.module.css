@@ -1,0 +1,66 @@
+.Header{
+    border-bottom:1px solid #E8E8E8;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.headerWrapper{
+    margin: 0 auto;
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.headerWrapper  .headerNav .navUl{
+    display: flex;
+    text-align: center;
+    gap:3rem;
+}
+.navUl .linkAH{
+    color:#18191F;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: 0.3s ease-in
+}
+.navUl .linkAH:hover{
+    color:#4CAF4F;
+    transition: 0.3s ease-in-out;
+}
+.navUl .linkA{
+    color:#18191F;
+    font-size: 1rem;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+}
+.navUl .linkA:hover{
+    color:#4CAF4F;
+    transition: 0.3s ease-in-out;
+}
+
+.headerWrapper  .headerBtns .ulBtns{
+    display: flex;
+    gap:3rem;
+}
+.headerBtns .ulBtns .logBtn{
+    padding: 12px 18px;
+    border-radius: 10px;
+    background-color: #F5F7FA;
+    color: #4CAF4F;
+    transition: 0.3s ease-in;
+}
+.headerBtns .ulBtns .logBtn:hover{
+    color:#F5F7FA;
+    background-color: #4CAF4F;
+    transition: 0.3s ease-in-out;
+}
+.headerBtns .ulBtns .regBtn{
+    padding: 12px 16px;
+    border-radius: 10px;
+    color: #F5F7FA;
+    background-color: #4CAF4F;
+    transition: 0.3s ease-in;
+}
+.headerBtns .ulBtns .regBtn:hover{
+    color: #4CAF4F;
+    background-color: #F5F7FA;
+    transition: 0.3s ease-in-out;
+}
