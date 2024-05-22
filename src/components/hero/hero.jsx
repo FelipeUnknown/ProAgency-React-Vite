@@ -13,11 +13,14 @@ const Hero = () => {
     <section className={style.Hero}>
       <div className={style.heroWrapper}>
         <div className={style.heroContent}>
-            <div>
+            <div className={style.heroText}>
           <h1>
             Lições e insights de<span> 8 anos</span>
           </h1>
           <p>Onde expandir seu negócio como fotógrafo: site ou mídia social?</p>
+          <div>
+            <a href="/" className={style.regBtn}>Registro</a>
+          </div>
           </div>
           <div className={style.heroImgDiv}>
             <img src={heroImg} alt="Imagem ilustrativa de um monitor" />
