@@ -1,8 +1,8 @@
 import { useState } from "react";
 import style from "../header/header.module.css";
-import Logo from "../../src/assets/img/Logo.svg";
-import iconBars from "../assets/img/iconBars.svg";
-import iconClose from "../assets/img/iconClose.svg";
+import Logo from "../../assets/img/Logo.svg";
+import iconBars from "../../assets/img/iconBars.svg";
+import iconClose from "../../assets/img/iconClose.svg";
 const Header =()=>{
     const [menuActive, setMenuActive] = useState(false);
     const links = [

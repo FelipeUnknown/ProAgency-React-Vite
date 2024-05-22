@@ -1,0 +1,12 @@
+.heroWrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 80rem;
+    margin:0 auto;
+}
+.heroContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:3rem 1rem  ;
+}
