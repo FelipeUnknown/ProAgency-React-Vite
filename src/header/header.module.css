@@ -15,16 +15,6 @@
     text-align: center;
     gap:3rem;
 }
-.navUl .linkAH{
-    color:#18191F;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: 0.3s ease-in
-}
-.navUl .linkAH:hover{
-    color:#4CAF4F;
-    transition: 0.3s ease-in-out;
-}
 .navUl .linkA{
     color:#18191F;
     font-size: 1rem;
@@ -32,7 +22,7 @@
     transition: 0.3s ease-in;
 }
 .navUl .linkA:hover{
-    color:#4CAF4F;
+    color:#4caf4f;
     transition: 0.3s ease-in-out;
 }
 
@@ -63,4 +53,46 @@
     color: #4CAF4F;
     background-color: #F5F7FA;
     transition: 0.3s ease-in-out;
+}
+#buttonMobile{
+    display: none;
+}
+@media(max-width:600px){
+    .headerNav{
+        display: none;
+    }
+    #menuIcons{
+        width: 20px;
+        height: 20px;
+    }
+    #buttonMobule{
+        display: block;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        cursor:pointer;
+        height: 28px;
+        width: 28px;
+    }
+    .active  .headerNav{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        background-color: #00000077;
+    }
+    .navUl .navLi{
+        padding: 1rem;
+    }
+    .active .navUl{
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerBtns{
+        display: nome;
+    }
+
 }
